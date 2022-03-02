@@ -79,7 +79,7 @@ function renderButtons(click) {
   // Iteration 3: add/remove the class "active" of each `<button class="btn">`
     const btn = document.querySelectorAll(".btn")
     btn.forEach((btn)=>{
-      btn.classList.add("active")
+      btn.classList.toggle("active")
     })
 }
 
